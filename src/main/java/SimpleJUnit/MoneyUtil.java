@@ -1,3 +1,5 @@
+package SimpleJUnit;
+
 import java.math.BigDecimal;
 
 public class MoneyUtil {
