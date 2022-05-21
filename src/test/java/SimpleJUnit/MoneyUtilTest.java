@@ -1,3 +1,6 @@
+package SimpleJUnit;
+
+import SimpleJUnit.MoneyUtil;
 import org.junit.Assert;
 import org.junit.Test;
 
