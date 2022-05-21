@@ -21,15 +21,6 @@ public class Game {
                 continue;
             }
 
-//            while (choicenum == null) //continue while user input is still not valid
-//            {
-//                System.out.println("Sorry, it looks like you didn't enter a correct input. Try again.");
-//                choice = input.nextLine().toUpperCase();
-//
-//                choicenum = getChoiceNum(choice);
-//
-//            }
-
             GameOption compnum = getChoiceComputer();
             gameResult(scoreBoard, choicenum, compnum);
             printResult(scoreBoard);
